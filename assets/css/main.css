@@ -1,0 +1,25 @@
+form, table{
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    padding: 26px;
+    background: #fff;
+}
+form{
+    display: block;
+}
+
+
+input[name=search]{
+    box-shadow: 0 4px 8px rgba(0,0,0,.2);
+    padding: 25px;
+    border-radius: 0;
+}
+
+.form-message.error{
+    color: red;
+}
+.form-message.success{
+    color: green;
+    font-size: 20px;
+    padding: 10px;
+}
+
